@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    width: 100%;
+    background-color: #383c42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 9vh;
+}
+
+header h1 {
+    color: white;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#18acfe, #0166e1);
+
+    display: flex;
+    justify-content: center;
+
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+main form {
+    background-color: #383c42;
+    width: 35%;
+    height: 75vh;
+    margin-top: 4%;
+    border-radius: 18px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main form .container-inputs {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.container-inputs i {
+    cursor: pointer;
+}
+
+#eye {
+    display: none;
+}
+
+main form .container-inputs i {
+    position: absolute;
+    top: 63%;
+    right: 7%;
+    color: #383c42;
+}
+
+main form .container-inputs .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main form .container-inputs input {
+    width: 90%;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    height: 8vh;
+    padding: 10px;
+    color: #383c42;
+    font-size: 1em;
+}
+
+.ajuda-senha {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-top: 10px;
+}
+
+.ajuda-senha a:hover {
+    color: #18acfe;
+    transition: 300ms ease-in-out;
+}
+
+main form button {
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0;
+    background-color: #18acfe;
+    width: 80%;
+    cursor: pointer;
+    margin: 35px;
+}
+
+main form button:hover {
+    background-color: white;
+    color: #18acfe;
+    transition: 300ms ease-in-out;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociais .icons-redes-sociais {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.google {
+    background-color: white;
+    color: #e34133;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.google:hover {
+    background-color: #e34133;
+    color: white;
+    transition: 300ms ease-in-out;
+}
+
+.facebook {
+    background-color: white;
+    color: #14a0f9;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.facebook:hover {
+    background-color: #14a0f9;
+    color: white;
+    transition: 300ms ease-in-out;
+}
+
+.linkedin {
+    background-color: white;
+    color: #0a66c2;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.linkedin:hover {
+    background-color: #0a66c2;
+    color: white;
+    transition: 300ms ease-in-out;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    font-weight: 800;
+}
+
+footer a:hover {
+    transition: 300ms ease-in-out;
+    color: #18acfe;
+}
